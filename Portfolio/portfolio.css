@@ -1,0 +1,104 @@
+
+body{margin:0; padding:0;}
+
+@keyframes transitionIn { 
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+    /* ------------------------LEFT BAR---------------------- */
+.about_img {width:50%; border-radius: 999px; margin: 80px 0 0 75px;}
+
+.container-fluid {width: 1200px; margin: 0;}
+
+/* ----------------------------ABOUT------------------------ */
+
+
+.about_name {animation: transitionIn 0.75s; width: 109%; float:left;}
+.about_name h1 {font-family:"Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; line-height: 1.2; color: #343a40; margin: 180px 0 0 40px;}
+
+
+.about_name h4 {font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; margin: 0 0 0 40px;}
+
+.about_name h4 a {text-decoration: none; color: black;}
+.about_name h4 a:hover {text-decoration: underline; color: #03A9F4;}
+.about_name p {font-family: Candara; font-size: large; margin: 40px 0 0 40px;}
+.buttons {width: 100%; float:left; margin: 40px 0 0 40px;}
+.buttons button {transition: all 0.5s ease-out; border-radius: 20px; padding: 5px 15px; cursor:pointer; background-color:black; color: #ddd;}
+.buttons button:hover, button:focus {color: #ddd; background-color: #232323;}
+.about_fonts {width: 100%; float:left;}
+.github {margin: 40px 0 0 40px; font-size: 30px; cursor: pointer;} 
+.wordpress {margin: 40px 0 0 50px; font-size: 30px; cursor: pointer;}
+.linkedin {margin: 40px 0 0 50px; font-size: 30px; color: blue; cursor: pointer;}
+.facebook {margin: 40px 0 0 50px; font-size: 30px; color: blue; cursor: pointer;}
+.instagram {margin: 40px 0 0 50px; font-size: 30px;  color: rgb(116, 21, 21); cursor: pointer;}
+.youtube {margin: 40px 0 0 50px; font-size: 30px;  color: red; cursor: pointer;}
+.exclamation {margin: 40px 0 0 50px; font-size: 30px; cursor: pointer;}
+
+    /* ----------------------------EXPERIENCE----------------------------- */
+
+
+.experience_main {height: 100vh; width: 70%; float:left;}
+.experience_main h1 {margin: 80px 0 0 40px; font-family:"Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; line-height: 1.2; color: #343a40;}
+.briefcase {margin: 0 0 0 10px; color: chocolate;}
+.experience_main ul {margin: 20px 0 0 30px; font-weight:bold; font-size: 20px; font-family: Candara;}
+.experience_main ul li {margin-top: 20px;}
+.experience_main p {font-weight: 500; margin: 0;}
+
+    /* --------------------EDUCATION---------------------- */
+.education_main {height:100vh; width: 70%; float: left;}
+.education_main h1 {margin: 80px 0 0 40px; font-family:"Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; line-height: 1.2; color: #343a40;}
+.school {color: chocolate; margin: 0 0 0 10px;}
+
+
+.education_main ul {margin: 20px 0 0 30px; font-weight:bold; font-size: 20px; font-family: Candara;}
+.education_main p {font-weight: 500; margin: 0; font-family: Arial;}
+.education_main li {margin-top: 20px; color: rgb(138, 9, 9);}
+
+
+
+.project_main {height: 100vh; width: 70%; float:left;}
+.project_main h1 {margin: 80px 0 0 40px; font-family:  "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; line-height: 1.2; color: #343a40;}
+.diagram-project {margin: 0 0 0 10px; color: chocolate;}
+
+.project_main ul {margin: 20px 0 0 30px; font-weight:bold; font-size: 20px; font-family: Candara;}
+.project_main ul span {color: rgb(138, 9, 9);}
+
+.github2 {font-size: 80px; margin: 80px 0 0 0;}
+
+    /* --------------------------SKILLING ----------------------------*/
+.skills_main {height: 100vh; width:70%; float:left;}
+.skills_main h1 {margin: 70px 0 0 40px; font-family:  "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; line-height: 1.2; color: #343a40;}
+
+.dribbble {margin: 0 0 0 10px; color: chocolate;}
+
+
+.skill_icon {margin:40px 0 0 45px; color:white; padding:4px; border-radius:15px; background:#03A9F4; font-size:15px;}
+
+{box-sizing: border-box}
+
+.skills_container {width: 100%; background-color: #ddd; margin:1px 0 0 0;}
+.skills_bar {width:100%; float:left; margin:-12px 0 0 45px;}
+.skills_bar p {font-family:Candara; margin:15px 0 0 0; font-weight:600;}
+
+
+.skills_html{width:90%; background-color: #04AA6D; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+.skills_css{width:80%; background-color: #2196F3; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+.skills_BootStrap {width:70%; background-color: #2196F3; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+.skills_js{width:65%; background-color: #f44336; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+.skills_wd{width:70%; background-color: #2196F3; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+.skills_react {width:60%; background-color: #f44336; text-align:right; padding-top: 10px; padding-bottom: 10px; color: white;}
+
+
+
+
+
